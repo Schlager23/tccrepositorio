@@ -1,0 +1,155 @@
+img {
+    size: 10px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+p {
+
+    font-size: 50px;
+
+}
+
+.bodyhome {
+    height: 100dvh;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    height: 100dvhz;
+    display: flex;
+    justify-content: flex-end;
+}
+
+aside {
+    background-color: rgb(177, 29, 29);
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 250px;
+    text-align: center;
+    margin: 0 25px 0 50px;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 0;
+    
+}
+
+aside a{
+
+    color: white;
+
+
+}
+main {
+
+    background-color: gray;
+    width: 77%;
+
+}
+
+header {
+
+    background-color: white;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+
+    width: 600px;
+
+}
+
+table {
+
+    color: white;
+    background-color: gray; 
+    width: 100%;
+    font-size: 25px;
+
+    border: 2px solid rgb(0, 0, 0);
+}
+
+table>tr {
+
+    width: 20%;
+
+}
+
+.sidebar {
+
+    background-color: rgb(220, 18, 18);
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.sidebar>a {
+
+    color: white;
+    text-decoration: underline;
+    padding: 40px;
+    font-size: 15px;
+
+}
+
+.chats {
+
+    background-color: rgb(99, 99, 99);
+    flex-direction: column;
+    width: 2000px;
+
+
+}
+
+.chats>b { 
+
+    color: white;
+    padding: 10px;
+
+
+}
+
+.chat {
+
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    width: 100%;
+    font-size: 35px;
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.chat>table{ 
+
+    color: white;
+    background-color: gray;
+    width: 100%;
+    font-size: 25px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.chat>div{
+
+
+
+}
+
+.chat>input{
+
+padding: 15px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+
+}
